@@ -1,0 +1,3972 @@
+"0",""
+"0","e0 <- 3 # uV # uV # intercept (in fT or micro Volts)"
+"0","e1 <- -1 # -1 uv # uV # minimum difference between conditions"
+"0","e0_sd <- 0.95 # 0.95 uV # standard deviation of the intercept "
+"0","eres_sd <- 1.5 # 1.5 uV # residual standard deviation"
+"0","nsims <- 500 # number of simulations per sample size"
+"0","ssizes <- 10:30 # sample sizes"
+"0",""
+"0","set.seed(777)"
+"0","pwr2 <- pwr_calc(e0,e1,e0_sd,eres_sd,nsims,ssizes)"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
+"2","boundary (singular) fit: see ?isSingular
+"
