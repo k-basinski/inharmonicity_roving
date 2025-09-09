@@ -46,7 +46,7 @@ time_vector = evoked['harmonic']['standard'][1].times
 # %%
 # STD_DEV_TOPOMAPS
 fig, ax = plt.subplots(
-    nrows=3, ncols=6, figsize=(6, 8), width_ratios=[5, 5, 5, 5, 5, 0.5]
+    nrows=3, ncols=6, figsize=(6, 9), width_ratios=[5, 5, 5, 5, 5, 0.5]
 )
 plt.subplots_adjust(top=2, bottom=.2, hspace=1,)
 topo_times = [0.12, 0.16, 0.2, 0.25, 0.4]
@@ -66,7 +66,7 @@ mne.grand_average(c).plot_topomap(
 )
 plt.savefig(f"{figpath}std_dev_topomaps.png", dpi=300,  bbox_inches='tight', pad_inches=0.5)
 
-# %%
+
 # STD_DEV_TRACES
 fig, ax = plt.subplots(nrows=3, ncols=1, figsize=(6, 10), sharex=True)
 
@@ -391,8 +391,8 @@ c = [
     "orn_inharmonic_deviant.png",
     "orn_changing_standard.png",
     "orn_changing_deviant.png",
-    "orn_contrast_standard.png",
-    "orn_contrast_deviant.png",
+    # "orn_contrast_standard.png",
+    # "orn_contrast_deviant.png",
 ]
 c = [f"{figpath}{i}" for i in c]
 sf.stack_images(c, f"{figpath}orn.png", padding="right")
