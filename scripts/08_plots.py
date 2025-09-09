@@ -396,10 +396,4 @@ c = [
 ]
 c = [f"{figpath}{i}" for i in c]
 sf.stack_images(c, f"{figpath}orn.png", padding="right")
-# %%
-# Check this out, I'm Tarantino y'all
-times = np.arange(0.05, 0.351, 0.01)
-c = sf.get_evoked_list(evoked, "harmonic", "mismatch_1")
-mne.grand_average(c).animate_topomap(times=times, frame_rate=2, butterfly=False)
 
-# # # %%

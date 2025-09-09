@@ -5,6 +5,9 @@ library(lmerTest)
 library(emmeans)
 library(broom)
 
+# change this to your repo location
+setwd("/Users/kbas/cloud/sci/inharmonicity_roving/")
+
 df <- read_csv("results/peak_measures.csv")
 df
 
