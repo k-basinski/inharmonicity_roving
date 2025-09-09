@@ -333,7 +333,7 @@ def plot_clusters(
         nrows=1,
         ncols=4,
         gridspec_kw={"width_ratios": width_ratios},
-        figsize=(16, 4),
+        figsize=(12, 3),
     )
 
     if map_colors is None:
@@ -438,6 +438,7 @@ def plot_clusters(
     # clean up viz
     mne.viz.tight_layout(fig=fig)
     # fig.subplots_adjust(bottom=0.05)
+    fig.subplots_adjust(top=0.9)
 
     fig.suptitle(title)
     return fig
