@@ -1,6 +1,6 @@
 # Inharmonicity enhances brain signals of attentional capture and auditory stream segregation
 
-[![DOI](https://zenodo.org/badge/968087271.svg)](https://doi.org/10.5281/zenodo.15236581)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17090724.svg)](https://doi.org/10.5281/zenodo.17090724)
 
 Code repository for the paper "Inharmonicity enhances brain signals of attentional capture and auditory stream segregation".
 
