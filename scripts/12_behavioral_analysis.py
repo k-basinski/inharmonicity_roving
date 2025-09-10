@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import shared_functions as sf
 
-data_fpath = "../paradigms/behavioral/data/"
+data_fpath = "../results/behavioral_data/"
 figpath = "../results/plots/"
 plist = list(range(1, 16))
 
@@ -105,7 +105,7 @@ sns.stripplot(
 axs[0].set_ylabel("no. responses")
 axs[0].set_title("A)", loc="left")
 axs[1].set_ylabel("|error|")
-axs[1].set_title("B), loc="left"")
+axs[1].set_title("B)", loc="left")
 plt.tight_layout()
 plt.savefig(f"{figpath}behavioral_tasks.png", dpi=300)
 
